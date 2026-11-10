@@ -1,5 +1,14 @@
 # FTdx9000D-SDR - histórico
 
+## 1.1.0 (10/11/2026)
+- Dois aparelhos: o VFO-B pode ter o seu próprio dongle (RTL-SDR, RTL-TCP ou SDRplay), recebendo ao mesmo tempo
+  que o VFO-A - por exemplo um RTL-TCP em HF e outro em VHF. CONFIGURAÇÃO > VFO-B (segundo aparelho): tipo,
+  IP e porta (ou o dongle USB), Conectar. O áudio dos dois toca junto (padrão) ou só o do VFO selecionado.
+- Volume, RF e squelch de cada VFO nos botões dele: a fileira do MAIN (AF GAIN - RF GAIN grande à direita, NB - SQL) controla o VFO-A e a do SUB (AF GAIN - RF GAIN e NB - SQL de baixo, B) controla o VFO-B.
+- TXW segurado: só o outro VFO toca. Clique na etiqueta RX de um VFO (na tela de frequência): os dois juntos / só o selecionado.
+- Com DUAL, o escopo do VFO-B mostra a janela inteira do aparelho dele. S-meter, squelch e AUTO da cachoeira de cada VFO no aparelho dele.
+- Desligando a caixa "VFO-B com aparelho próprio" tudo volta a ser como antes (um aparelho só).
+
 ## 1.0.0 (07/11/2026)
 - Primeira versão. Mesmo motor do IC7610SDR 1.0.0 / FTdxSDR / SDR990S (RTL-SDR, RTL-TCP, SDRplay, todos os
   decodificadores, Radar Aéreo, Satélites), com o painel novo no estilo do FTdx9000D, desenhado a partir da foto:

@@ -20,6 +20,7 @@ As DLLs do RTL-SDR já vêm junto. Para o dongle RTL-SDR no USB, instale uma vez
 
 - **Aparelhos:** RTL-SDR (USB), RTL-TCP (rede) e SDRplay (com a [API oficial](https://www.sdrplay.com/api/)), escolhidos no ANTENNA SELECT 1 / 2 / 3.
 - **ADS-B pela rede:** o Radar Aéreo também mostra os aviões de outro receptor da sua rede (FlightAware/PiAware, dump1090, readsb, FR24...) pela porta Beast 30005. O FTdx9000D-SDR só lê, e o dongle fica livre.
+- **Dois aparelhos:** o VFO-B pode ter o seu próprio dongle (ex.: um RTL-TCP em HF e outro em VHF), recebendo ao mesmo tempo que o VFO-A. Os dois tocam juntos, cada um com o seu volume, RF e squelch (CONFIGURAÇÃO > VFO-B).
 - **Modos:** LSB, USB, CW, AM, FM estreito e FM largo.
 - **Cada botão faz a função do rádio.** Os de transmissão, que num receptor não servem, ganharam funções de recepção. Pare o mouse em cima de qualquer botão: a dica diz o que ele faz.
 - **Dois receptores (VFO-A e VFO-B):** cada um com o seu AF / RF, AGC, NB, DNR, NOTCH, CONT, DNF, SQL, SHIFT-WIDTH e MUTE; SPLIT, TXW, A>B, B>A, A<>B e o botão CLAR / VFO-B.
